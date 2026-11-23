@@ -1,0 +1,22 @@
+-- ==========================================
+-- QUESTION 1: Creating a Complete Database Backup
+-- ==========================================
+
+-- Command to create a complete backup of the sales database:
+-- mysqldump -u root -p sales > sales_backup.sql
+
+-- Explanation:
+-- mysqldump is a MySQL utility used to export database structures
+-- and data into an SQL file.
+--
+-- -u root: Specifies root as the MySQL username.
+-- -p: Prompts the user to enter the MySQL password.
+-- sales: Specifies the database to back up.
+-- > sales_backup.sql: Saves the backup into a file named sales_backup.sql.
+--
+-- Importance of regular database backups:
+-- 1. Protects data against accidental deletion or corruption.
+-- 2. Helps recover data after hardware or system failures.
+-- 3. Prevents permanent data loss.
+-- 4. Supports disaster recovery.
+-- 5. Allows database restoration when major changes fail.
